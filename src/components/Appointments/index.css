@@ -1,0 +1,92 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.app-appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 80%;
+  height: 95%;
+  border-radius: 5px;
+  padding: 48px;
+}
+.from-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  height: 48px;
+  width: 250px;
+  font-family: roboto;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  color: #b5b7c4;
+}
+.label {
+  color: #b5b7c4;
+}
+.add-button {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  height: 32px;
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+}
+.appointment-img {
+  height: 280px;
+  width: 400px;
+}
+.hr-line {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border: 1px solid #000000;
+}
+.filter-appointments-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-button {
+  font-family: roboto;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 16px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.filter-filed {
+  background-color: #9897f0;
+  color: #ffffff;
+}
+.filter-empty {
+  color: #9897f0;
+  background-color: #ffffff;
+  border: 1px solid #9897f0;
+}
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
